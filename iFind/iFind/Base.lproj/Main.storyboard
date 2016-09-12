@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iFind" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wdu-tu-Col" customClass="Board" customModule="iFind" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="-130" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.93436316287878785" green="0.93436316287878785" blue="0.93436316287878785" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lak-9Q-f5L" customClass="BaseToolView" customModule="iFind" customModuleProvider="target">
+                                <rect key="frame" x="55" y="500" width="50" height="394"/>
+                                <state key="normal" image="eraser"/>
+                                <connections>
+                                    <action selector="eraserTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6dW-wC-1az"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFV-cW-vfB" customClass="BaseToolView" customModule="iFind" customModuleProvider="target">
+                                <rect key="frame" x="275" y="500" width="50" height="394"/>
+                                <state key="normal" image="pencil_black"/>
+                                <connections>
+                                    <action selector="pencilTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1QI-HQ-Eiz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMZ-VN-Z6e">
+                                <rect key="frame" x="-28" y="478" width="114" height="45"/>
+                                <state key="normal" image="undo"/>
+                                <connections>
+                                    <action selector="undo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="orL-gn-7SI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h73-Ya-8fy">
+                                <rect key="frame" x="287" y="478" width="114" height="45"/>
+                                <state key="normal" image="redo"/>
+                                <connections>
+                                    <action selector="redo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eez-cJ-1P2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lak-9Q-f5L" firstAttribute="top" secondItem="wdu-tu-Col" secondAttribute="bottom" constant="30" id="8tt-hZ-xZy"/>
+                            <constraint firstItem="lak-9Q-f5L" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="B9T-0a-6wK"/>
+                            <constraint firstItem="wdu-tu-Col" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CGe-AJ-rSA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wdu-tu-Col" secondAttribute="bottom" constant="130" id="GeY-VT-EuJ"/>
+                            <constraint firstItem="RFV-cW-vfB" firstAttribute="top" secondItem="wdu-tu-Col" secondAttribute="bottom" constant="30" id="VKN-WV-vnN"/>
+                            <constraint firstItem="wdu-tu-Col" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-130" id="YJk-M6-3Rj"/>
+                            <constraint firstItem="RFV-cW-vfB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bm7-ZM-x2M"/>
+                            <constraint firstAttribute="trailing" secondItem="wdu-tu-Col" secondAttribute="trailing" id="mnE-rd-gzu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wdu-tu-Col" secondAttribute="bottom" constant="120" id="mnS-q8-haE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="mnS-q8-haE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="board" destination="wdu-tu-Col" id="LUf-f2-5gN"/>
+                        <outlet property="eraser" destination="lak-9Q-f5L" id="7Xg-2u-nfN"/>
+                        <outlet property="pencil" destination="RFV-cW-vfB" id="lay-ZG-gZB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="230"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="eraser" width="50" height="394"/>
+        <image name="pencil_black" width="50" height="394"/>
+        <image name="redo" width="60" height="45"/>
+        <image name="undo" width="60" height="45"/>
+    </resources>
+</document>

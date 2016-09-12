@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF315C081D60DDAA0010B038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF315C071D60DDAA0010B038 /* AppDelegate.swift */; };
+		AF315C0A1D60DDAA0010B038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF315C091D60DDAA0010B038 /* ViewController.swift */; };
+		AF315C0D1D60DDAA0010B038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF315C0B1D60DDAA0010B038 /* Main.storyboard */; };
+		AF315C0F1D60DDAA0010B038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF315C0E1D60DDAA0010B038 /* Assets.xcassets */; };
+		AF315C121D60DDAA0010B038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF315C101D60DDAA0010B038 /* LaunchScreen.storyboard */; };
+		AF315C1D1D60DDAA0010B038 /* iFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF315C1C1D60DDAA0010B038 /* iFindTests.swift */; };
+		AF315C281D60DDAA0010B038 /* iFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF315C271D60DDAA0010B038 /* iFindUITests.swift */; };
+		AF315C361D6313690010B038 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF315C351D6313690010B038 /* Board.swift */; };
+		AF315C381D642BC00010B038 /* BaseBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF315C371D642BC00010B038 /* BaseBrush.swift */; };
+		AFC574811D68860A0041591F /* BaseToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC574801D68860A0041591F /* BaseToolView.swift */; };
+		AFFB860E1D6751940054102E /* PencilBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB860D1D6751940054102E /* PencilBrush.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF315C191D60DDAA0010B038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF315BFC1D60DDAA0010B038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF315C031D60DDAA0010B038;
+			remoteInfo = iFind;
+		};
+		AF315C241D60DDAA0010B038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF315BFC1D60DDAA0010B038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF315C031D60DDAA0010B038;
+			remoteInfo = iFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF315C041D60DDAA0010B038 /* iFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF315C071D60DDAA0010B038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF315C091D60DDAA0010B038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF315C0C1D60DDAA0010B038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF315C0E1D60DDAA0010B038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF315C111D60DDAA0010B038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF315C131D60DDAA0010B038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF315C181D60DDAA0010B038 /* iFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF315C1C1D60DDAA0010B038 /* iFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFindTests.swift; sourceTree = "<group>"; };
+		AF315C1E1D60DDAA0010B038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF315C231D60DDAA0010B038 /* iFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF315C271D60DDAA0010B038 /* iFindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFindUITests.swift; sourceTree = "<group>"; };
+		AF315C291D60DDAA0010B038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF315C351D6313690010B038 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		AF315C371D642BC00010B038 /* BaseBrush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBrush.swift; sourceTree = "<group>"; };
+		AFC574801D68860A0041591F /* BaseToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseToolView.swift; sourceTree = "<group>"; };
+		AFFB860D1D6751940054102E /* PencilBrush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilBrush.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF315C011D60DDAA0010B038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF315C151D60DDAA0010B038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF315C201D60DDAA0010B038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF315BFB1D60DDAA0010B038 = {
+			isa = PBXGroup;
+			children = (
+				AF315C061D60DDAA0010B038 /* iFind */,
+				AF315C1B1D60DDAA0010B038 /* iFindTests */,
+				AF315C261D60DDAA0010B038 /* iFindUITests */,
+				AF315C051D60DDAA0010B038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF315C051D60DDAA0010B038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF315C041D60DDAA0010B038 /* iFind.app */,
+				AF315C181D60DDAA0010B038 /* iFindTests.xctest */,
+				AF315C231D60DDAA0010B038 /* iFindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF315C061D60DDAA0010B038 /* iFind */ = {
+			isa = PBXGroup;
+			children = (
+				AF315C071D60DDAA0010B038 /* AppDelegate.swift */,
+				AF315C091D60DDAA0010B038 /* ViewController.swift */,
+				AF315C0B1D60DDAA0010B038 /* Main.storyboard */,
+				AF315C0E1D60DDAA0010B038 /* Assets.xcassets */,
+				AF315C101D60DDAA0010B038 /* LaunchScreen.storyboard */,
+				AF315C131D60DDAA0010B038 /* Info.plist */,
+				AF315C351D6313690010B038 /* Board.swift */,
+				AF315C371D642BC00010B038 /* BaseBrush.swift */,
+				AFFB860D1D6751940054102E /* PencilBrush.swift */,
+				AFC574801D68860A0041591F /* BaseToolView.swift */,
+			);
+			path = iFind;
+			sourceTree = "<group>";
+		};
+		AF315C1B1D60DDAA0010B038 /* iFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF315C1C1D60DDAA0010B038 /* iFindTests.swift */,
+				AF315C1E1D60DDAA0010B038 /* Info.plist */,
+			);
+			path = iFindTests;
+			sourceTree = "<group>";
+		};
+		AF315C261D60DDAA0010B038 /* iFindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF315C271D60DDAA0010B038 /* iFindUITests.swift */,
+				AF315C291D60DDAA0010B038 /* Info.plist */,
+			);
+			path = iFindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF315C031D60DDAA0010B038 /* iFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF315C2C1D60DDAA0010B038 /* Build configuration list for PBXNativeTarget "iFind" */;
+			buildPhases = (
+				AF315C001D60DDAA0010B038 /* Sources */,
+				AF315C011D60DDAA0010B038 /* Frameworks */,
+				AF315C021D60DDAA0010B038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFind;
+			productName = iFind;
+			productReference = AF315C041D60DDAA0010B038 /* iFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF315C171D60DDAA0010B038 /* iFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF315C2F1D60DDAA0010B038 /* Build configuration list for PBXNativeTarget "iFindTests" */;
+			buildPhases = (
+				AF315C141D60DDAA0010B038 /* Sources */,
+				AF315C151D60DDAA0010B038 /* Frameworks */,
+				AF315C161D60DDAA0010B038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF315C1A1D60DDAA0010B038 /* PBXTargetDependency */,
+			);
+			name = iFindTests;
+			productName = iFindTests;
+			productReference = AF315C181D60DDAA0010B038 /* iFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF315C221D60DDAA0010B038 /* iFindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF315C321D60DDAA0010B038 /* Build configuration list for PBXNativeTarget "iFindUITests" */;
+			buildPhases = (
+				AF315C1F1D60DDAA0010B038 /* Sources */,
+				AF315C201D60DDAA0010B038 /* Frameworks */,
+				AF315C211D60DDAA0010B038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF315C251D60DDAA0010B038 /* PBXTargetDependency */,
+			);
+			name = iFindUITests;
+			productName = iFindUITests;
+			productReference = AF315C231D60DDAA0010B038 /* iFindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF315BFC1D60DDAA0010B038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "赵一达";
+				TargetAttributes = {
+					AF315C031D60DDAA0010B038 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U28QYBRPF7;
+					};
+					AF315C171D60DDAA0010B038 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3Y9F957QND;
+						TestTargetID = AF315C031D60DDAA0010B038;
+					};
+					AF315C221D60DDAA0010B038 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3Y9F957QND;
+						TestTargetID = AF315C031D60DDAA0010B038;
+					};
+				};
+			};
+			buildConfigurationList = AF315BFF1D60DDAA0010B038 /* Build configuration list for PBXProject "iFind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF315BFB1D60DDAA0010B038;
+			productRefGroup = AF315C051D60DDAA0010B038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF315C031D60DDAA0010B038 /* iFind */,
+				AF315C171D60DDAA0010B038 /* iFindTests */,
+				AF315C221D60DDAA0010B038 /* iFindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF315C021D60DDAA0010B038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF315C121D60DDAA0010B038 /* LaunchScreen.storyboard in Resources */,
+				AF315C0F1D60DDAA0010B038 /* Assets.xcassets in Resources */,
+				AF315C0D1D60DDAA0010B038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF315C161D60DDAA0010B038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF315C211D60DDAA0010B038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF315C001D60DDAA0010B038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFB860E1D6751940054102E /* PencilBrush.swift in Sources */,
+				AF315C0A1D60DDAA0010B038 /* ViewController.swift in Sources */,
+				AF315C381D642BC00010B038 /* BaseBrush.swift in Sources */,
+				AFC574811D68860A0041591F /* BaseToolView.swift in Sources */,
+				AF315C081D60DDAA0010B038 /* AppDelegate.swift in Sources */,
+				AF315C361D6313690010B038 /* Board.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF315C141D60DDAA0010B038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF315C1D1D60DDAA0010B038 /* iFindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF315C1F1D60DDAA0010B038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF315C281D60DDAA0010B038 /* iFindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF315C1A1D60DDAA0010B038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF315C031D60DDAA0010B038 /* iFind */;
+			targetProxy = AF315C191D60DDAA0010B038 /* PBXContainerItemProxy */;
+		};
+		AF315C251D60DDAA0010B038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF315C031D60DDAA0010B038 /* iFind */;
+			targetProxy = AF315C241D60DDAA0010B038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF315C0B1D60DDAA0010B038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF315C0C1D60DDAA0010B038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF315C101D60DDAA0010B038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF315C111D60DDAA0010B038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF315C2A1D60DDAA0010B038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF315C2B1D60DDAA0010B038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF315C2D1D60DDAA0010B038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.iFind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AF315C2E1D60DDAA0010B038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.iFind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		AF315C301D60DDAA0010B038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.iFindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFind.app/iFind";
+			};
+			name = Debug;
+		};
+		AF315C311D60DDAA0010B038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.iFindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFind.app/iFind";
+			};
+			name = Release;
+		};
+		AF315C331D60DDAA0010B038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.iFindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iFind;
+			};
+			name = Debug;
+		};
+		AF315C341D60DDAA0010B038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.iFindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iFind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF315BFF1D60DDAA0010B038 /* Build configuration list for PBXProject "iFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF315C2A1D60DDAA0010B038 /* Debug */,
+				AF315C2B1D60DDAA0010B038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF315C2C1D60DDAA0010B038 /* Build configuration list for PBXNativeTarget "iFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF315C2D1D60DDAA0010B038 /* Debug */,
+				AF315C2E1D60DDAA0010B038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF315C2F1D60DDAA0010B038 /* Build configuration list for PBXNativeTarget "iFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF315C301D60DDAA0010B038 /* Debug */,
+				AF315C311D60DDAA0010B038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF315C321D60DDAA0010B038 /* Build configuration list for PBXNativeTarget "iFindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF315C331D60DDAA0010B038 /* Debug */,
+				AF315C341D60DDAA0010B038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF315BFC1D60DDAA0010B038 /* Project object */;
+}
